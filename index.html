@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BufaShop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        </header>
+        <aside>
+            
+            <header class="header-mobile">
+                <h1 class="logo">BufaShop</h1>
+                <button class="menu-button"><i class="bi bi-list"></i></button>
+            </header>
+
+            <!--logo de la pagina-->
+            <header>
+                <h1 class="logo">BufaShop</h1>
+            </header>
+            
+            <nav>
+
+                <!-- Buscador -->
+                <main>
+                    <div class="search-container">
+                        <input type="text" id="search-bar" placeholder="Buscar...">
+                        <button id="search-button"><i class="bi bi-search"></i></button>
+                    </div>
+                </main>
+
+                <!--categorias-->
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"> <i class="bi bi-arrow-up-square"></i> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="abrigos" class="boton-menu boton-categoria"><i class="bi bi-arrow-up-square"></i> Camperas</button>
+                    </li>
+                    <li>
+                        <button id="camisetas" class="boton-menu boton-categoria"><i class="bi bi-arrow-up-square"></i> Remeras</button>
+                    </li>
+                    <li>
+                        <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-arrow-up-square"></i> Pantalones</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-plus-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <footer>
+                <p class="texto-footer">© 2024 Facundo Aciar </p>
+            </footer>
+        </aside>
+
+        <!--Filtros-->
+        <main>
+            <div class="titulo-filtro-container">
+                <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+                <button id="toggle-filtros"><i class="bi bi-funnel"></i> <span id="toggle-filtros-text">Mostrar Filtros</span></button>
+            </div>
+            <div class="filtros-wrapper">
+                <div id="filtros" class="filtros oculto">
+                    <h3>Filtros</h3>
+                    <div class="filtro-ordenar">
+                        <label for="ordenar-precio">Ordenar por precio:</label>
+                        <select id="ordenar-precio">
+                            <option value="">Sin ordenar</option>
+                            <option value="menor">Menor precio</option>
+                            <option value="mayor">Mayor precio</option>
+                        </select>
+                    </div>
+                    <div class="filtro-precio">
+                        <label for="precio-min">Precio mínimo:</label>
+                        <input id="precio-min" min="0" placeholder="$15.200" inputmode="numeric">
+                        <label for="precio-max">Precio máximo:</label>  
+                        <input id="precio-max" min="0" placeholder="$20.700" inputmode="numeric">
+                    </div>
+                    <div class="filtro-talle">
+                        <label for="talle">Talle:</label>
+                        <select id="talle">
+                            <option value="">Todos</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                            <option value="36">36</option>
+                            <option value="38">38</option>
+                            <option value="40">40</option>
+                            <option value="42">42</option>
+                            <option value="44">44</option>
+                            <option value="46">46</option>
+                        </select>
+                    </div>
+                    <div class="filtro-color">
+                        <label for="color">Color:</label>
+                        <select id="color">
+                            <option value="">Todos</option>
+                            <option value="Azul">Azul</option>
+                            <option value="Beige">Beige</option>
+                            <option value="Blanco">Blanco</option>
+                            <option value="Gris">Gris</option>
+                            <option value="Negro">Negro</option>
+                            <option value="Rojo">Rojo</option>
+                            <option value="Verde">Verde</option>
+                        </select>
+                    </div>
+                    <button id="aplicar-filtros">Aplicar Filtros</button>
+                </div>
+            </div>
+
+            <!--contenedor de los productos cargados-->
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a rellenar con JS -->
+            </div>
+
+        </main>
+    </div>
+    
+    <!--informacion final de la pagina -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>EMPRESA</h3>
+                <ul>
+                    <li><a href="#" ><span>Nuestra historia</span></a></li>
+                    <li><a href="#"><span>Carrera</span></a></li>
+                    <li><a href="#"><span>Prensa</span></a></li>
+                    <li><a href="#"><span>Contacto</span></a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>CENTRO DE AYUDA</h3>
+                <ul>
+                    <li><a href="#"><span>Envíos</span></a></li>
+                    <li><a href="#"><span>Devoluciones</span></a></li>
+                    <li><a href="#"><span>Pagos</span></a></li>
+                    <li><a href="#"><span>Preguntas frecuentes</spanA></a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <div class="social-icons">
+                    <h3> Nuestras redes sociales </h3>
+                    <a href="https://www.facebook.com/facundo.aciar.31/?locale=es_LA" target="_blank" ><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/facuu_aciar/" target="_blank" ><i class="bi bi-instagram"></i></a>
+                    <a href="https://x.com/aciar_facundo" target="_blank"><i class="bi bi-twitter"></i></a>
+                    <a href="https://github.com/Facuu-aciar" target="_blank"><i class="bi bi-github"></i></a>
+                </div>
+                <div class="footer-section" style="margin-top: 40px;">
+                    <h3>Pagina realizada por: </h3>
+                    <ul>
+                        <li><a href="https://github.com/Facuu-aciar" target="_blank"><span>Facundo Aciar</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>

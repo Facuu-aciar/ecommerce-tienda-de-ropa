@@ -1,0 +1,218 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": "Campera 01",
+        "imagen": "./img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 20300,
+        "color": "Azul",
+        "talles": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Campera 02",
+        "imagen": "./img/abrigos/02.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 20400,
+        "color": "Azul",
+        "talles": ["M", "L", "XL"]
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Campera 03",
+        "imagen": "./img/abrigos/03.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 20500,
+        "color": "Gris",
+        "talles": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Campera 04",
+        "imagen": "./img/abrigos/04.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 20600,
+        "color": "Negro",
+        "talles": ["S", "M", "L"]
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Campera 05",
+        "imagen": "./img/abrigos/05.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 20700,
+        "color": "Gris",
+        "talles": ["M", "L", "XL"]
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Remera 01",
+        "imagen": "./img/camisetas/01.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 15200,
+        "color": "Azul",
+        "talles": ["S", "M", "L"]
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Remera 02",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 15300,
+        "color": "Blanco",
+        "talles": ["M", "L", "XL"]
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Remera 03",
+        "imagen": "./img/camisetas/03.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 15400,
+        "color": "Azul",
+        "talles": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Remera 04",
+        "imagen": "./img/camisetas/04.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 15500,
+        "color": "Rojo",
+        "talles": ["M", "L", "XL"]
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Remera 05",
+        "imagen": "./img/camisetas/05.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 15600,
+        "color": "Gris",
+        "talles": ["S", "M", "L"]
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Remera 06",
+        "imagen": "./img/camisetas/06.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 15700,
+        "color": "Rojo",
+        "talles": ["S", "M", "L", "XL"]
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Remera 07",
+        "imagen": "./img/camisetas/07.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 15800,
+        "color": "Verde",
+        "talles": ["M", "L", "XL"]
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Remera 08",
+        "imagen": "./img/camisetas/08.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 15900,
+        "color": "Verde",
+        "talles": ["S", "M", "L"]
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Pantalón 01",
+        "imagen": "./img/pantalones/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 17100,
+        "color": "Beige",
+        "talles": ["36", "38", "40", "42"]
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Pantalón 02",
+        "imagen": "./img/pantalones/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 17500,
+        "color": "Beige",
+        "talles": ["38", "40", "42", "44"]
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Pantalón 03",
+        "imagen": "./img/pantalones/03.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 17300,
+        "color": "Negro",
+        "talles": ["40", "42", "44", "46"]
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Pantalón 04",
+        "imagen": "./img/pantalones/04.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 17400,
+        "color": "Negro",
+        "talles": ["36", "38", "40", "42"]
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Pantalón 05",
+        "imagen": "./img/pantalones/05.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 17700,
+        "color": "Verde",
+        "talles": ["38", "40", "42", "44"]
+    }
+]
